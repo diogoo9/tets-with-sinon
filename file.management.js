@@ -5,6 +5,7 @@ const {
   unlinkSync,
   writeFileSync
 } = require("fs");
+const { resolve } = require("path");
 const util = require("util");
 
 module.exports = {

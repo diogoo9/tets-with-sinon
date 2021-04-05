@@ -10,7 +10,7 @@ describe("File Management", () => {
     sinon.restore();
   })
 
-  describe("When creating a file,", () => {
+  describe.skip("When creating a file,", () => {
     it("should call writeFileSync", () => {
       const writeSpy = sinon.spy(fs, "writeFileSync");
       const fileManagement = proxyquire("./file.management", { fs });
