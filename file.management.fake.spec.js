@@ -4,7 +4,7 @@ const { expect } = require("chai");
 const proxyquire = require("proxyquire");
 
 
-describe("File Management Stub", ()=>{
+describe.skip("File Management Stub", ()=>{
     afterEach(()=>{
         sinon.restore();
     });
